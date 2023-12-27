@@ -1,0 +1,206 @@
+{
+   "always_enable_proxy_setting": {
+      "description": "",
+      "message": "Selalu Aktifkan Proxy"
+   },
+   "automatic_fallback_setting": {
+      "description": "",
+      "message": "Fallback Otomatis"
+   },
+   "badge_error": {
+      "description": "",
+      "message": "kesalahan"
+   },
+   "badge_off": {
+      "description": "",
+      "message": "matikan"
+   },
+   "contact_support_setting": {
+      "description": "",
+      "message": "Kontak Dukungan"
+   },
+   "disable_automatic_fallback_message": {
+      "description": "",
+      "message": "Harap nonaktifkan Fallback Otomatis untuk mengaktifkan pengaturan ini"
+   },
+   "disable_proxy_message": {
+      "description": "",
+      "message": "Nonaktifkan Proxy untuk akses pengaturan ini"
+   },
+   "disable_socks_message": {
+      "description": "",
+      "message": "Harap nonaktifkan hide.me SOCKS untuk mengaktifkan pengaturan ini"
+   },
+   "disable_webrtc_setting": {
+      "description": "",
+      "message": "Nonaktifkan WebRTC"
+   },
+   "enable_socks_setting": {
+      "description": "",
+      "message": "Aktifkan SOCKS"
+   },
+   "ext_default_title": {
+      "description": "",
+      "message": "hide.me Proxy"
+   },
+   "ext_description": {
+      "description": "",
+      "message": "Membuka kembali situs web apapun dengan hide.me Proxy!"
+   },
+   "ext_name": {
+      "description": "",
+      "message": "hide.me Proxy"
+   },
+   "features_best_servers": {
+      "description": "",
+      "message": "Server terbaik berlokasi di AS, Kanada, Belanda, Jerman dan Singapura tanpa batas bandwidth."
+   },
+   "features_no_cost": {
+      "description": "",
+      "message": "Tanpa biaya - Semua Ekstensi VPN Gratis. Dapatkan perlindungan online kualitas luar biasa dan kebebasan total sebesar $0."
+   },
+   "features_no_limit": {
+      "description": "",
+      "message": "Kami tidak membatasi bandwidth atau kecepatan pada layanan kami."
+   },
+   "features_premium": {
+      "description": "",
+      "message": "Fitur premium diaktifkan untuk terhubung ke hide.me SOCKS untuk menghindari kebocoran IP untuk keamanan tingkat berikutnya."
+   },
+   "features_subtitle": {
+      "description": "",
+      "message": "\u003Ca href=\"https://hide.me/software\" target=\"_blank\">Unduh\u003C/a> VPN kami untuk melindungi semua aplikasi-aplikasi."
+   },
+   "features_title": {
+      "description": "",
+      "message": "Fitur-Fitur Yang Tidak Dapat Orang Lain Tawarkan!"
+   },
+   "features_unblock_websites": {
+      "description": "",
+      "message": "Membuka kembali website, platform-platform sosial, ucapkan pikiran Anda dan lakukan lebih banyak lagi di internet dengan ekstensi hide.me VPN."
+   },
+   "firefox_privacy": {
+      "description": "",
+      "message": "Karena terbaru \u003Ca href=\"https://blog.mozilla.org/addons/2019/03/26/extensions-in-firefox-67/\">Firefox berubah menjadi ekstensi\u003C/a> pengaturan-pengaturan privasi yang Anda butuhkan untuk \u003Cstrong>mengizinkan ekstensi ini berjalan dalam Mode Pribadi\u003C/strong> agar dapat berfungsi ."
+   },
+   "language_setting": {
+      "description": "",
+      "message": "Bahasa"
+   },
+   "language_settings_title": {
+      "description": "",
+      "message": "Pilih Bahasa"
+   },
+   "locale_name": {
+      "description": "",
+      "message": "Inggris"
+   },
+   "locations_title": {
+      "description": "",
+      "message": "Lokasi-Lokasi"
+   },
+   "privacy_checkup_title": {
+      "description": "",
+      "message": "Pemeriksaan Privasi"
+   },
+   "privacy_modal_body": {
+      "description": "",
+      "message": "Anda dapat membaca di situs web kami mengapa Anda harus menonaktifkan WebRTC atau QUIC. Informasi lebih lanjut dapat ditemukan \u003Ca href='https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/'>di sini\u003C/a>."
+   },
+   "privacy_modal_title": {
+      "description": "",
+      "message": "Pemeriksaan Privasi"
+   },
+   "privacy_policy_setting": {
+      "description": "",
+      "message": "Kebijakan Pribadi"
+   },
+   "proxy_connection_error": {
+      "description": "",
+      "message": "Terjadi kesalahan dengan sambungan proxy"
+   },
+   "proxy_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Proxy tidak dapat berfungsi karena ekstensi lain mengendalikan pengaturan-pengaturan proxy Anda."
+   },
+   "proxy_not_controllable_suggestion": {
+      "description": "",
+      "message": "Harap nonaktifkan layanan lain yang dapat mengganggu hide.me."
+   },
+   "proxy_setting_error": {
+      "description": "",
+      "message": "Kesalahan Pengaturan Proxy Reguler"
+   },
+   "quick_disabled_message": {
+      "description": "",
+      "message": "QUIC dinonaktifkan!"
+   },
+   "quick_enabled_message": {
+      "description": "",
+      "message": "QUIC ANDA DIAKTIFKAN. Untuk mematikannya, ikuti \u003Ca href='https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/'>tautan ini\u003C/a>"
+   },
+   "service_terms_setting": {
+      "description": "",
+      "message": "Ketentuan Layanan"
+   },
+   "settings_title": {
+      "description": "",
+      "message": "Pengaturan-Pengaturan"
+   },
+   "signup_button": {
+      "description": "",
+      "message": "DAFTAR"
+   },
+   "status_connected": {
+      "description": "",
+      "message": "Terhubung"
+   },
+   "status_disconnected": {
+      "description": "",
+      "message": "Terputus"
+   },
+   "status_off": {
+      "description": "",
+      "message": "Mati"
+   },
+   "status_on": {
+      "description": "",
+      "message": "Hidup"
+   },
+   "upgrade_now_button": {
+      "description": "",
+      "message": "UNDUH SEKARANG"
+   },
+   "upgrade_now_message": {
+      "description": "",
+      "message": "Unduh aplikasi-aplikasi VPN kami untuk \u003Cb>akses semua\u003C/b> lokasi-lokasi server "
+   },
+   "warning_not_controllable": {
+      "description": "",
+      "message": "\u003Cstrong>Peringatan!\u003C/strong> Ekstensi lain mengendalikan pengaturan-pengaturan WebRTC Anda."
+   },
+   "webrtc_disabled_message": {
+      "description": "",
+      "message": "WebRTC dinonaktifkan"
+   },
+   "webrtc_enabled_message": {
+      "description": "",
+      "message": "WebRTC diaktifkan!"
+   },
+   "webrtc_not_controllable": {
+      "description": "",
+      "message": "Ekstensi lain mengendalikan pengaturan-pengaturan WebRTC Anda."
+   },
+   "webrtc_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Proxy tidak dapat berfungsi karena ekstensi lain mengendalikan pengaturan-pengaturan WebRTC Anda."
+   },
+   "welcome_body": {
+      "description": "",
+      "message": "Sekarang Anda terlindungi dengan perisai super-aman dan tidak bisa dipecahkan dari hide.me VPN ekstensi browser. Jelajahi dunia cyber tanpa batas dan dapatkan akses ke setiap situs web di internet. Menonton film-film dan lakukan lebih banyak lagi terlepas dari negara tempat Anda tinggal saat ini. Dan, jangan khawatir, IP asli Anda benar-benar tersembunyi dari penyusup dan pihak ketiga, yang bisa mereka lihat hanyalah IP hide.me. Bahkan ISP Anda tidak dapat melacak apapun kembali kepada Anda. Jadi, apa yang kamu tunggu? Pergi dan nikmati perjalanan!"
+   },
+   "welcome_title": {
+      "description": "",
+      "message": "Selamat Datang di Perjalanan Paling Aman di Internet!"
+   }
+}

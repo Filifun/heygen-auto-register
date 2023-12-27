@@ -1,0 +1,206 @@
+{
+   "always_enable_proxy_setting": {
+      "description": "",
+      "message": "Proxy dauerhaft aktivieren"
+   },
+   "automatic_fallback_setting": {
+      "description": "",
+      "message": "Fallback-Proxy"
+   },
+   "badge_error": {
+      "description": "",
+      "message": "Fehler"
+   },
+   "badge_off": {
+      "description": "",
+      "message": "aus"
+   },
+   "contact_support_setting": {
+      "description": "",
+      "message": "Support kontaktieren"
+   },
+   "disable_automatic_fallback_message": {
+      "description": "",
+      "message": "Bitte deaktivieren Sie die Einstellung \"Fallback-Proxy\", um die Einstellung zu ändern."
+   },
+   "disable_proxy_message": {
+      "description": "",
+      "message": "Bitte deaktivieren Sie die Proxy-Verbindung, um die Einstellungen zu ändern."
+   },
+   "disable_socks_message": {
+      "description": "",
+      "message": "Bitte deaktivieren Sie hide.me SOCKS, um die Einstellung zu ändern."
+   },
+   "disable_webrtc_setting": {
+      "description": "",
+      "message": "WebRTC deaktivieren"
+   },
+   "enable_socks_setting": {
+      "description": "",
+      "message": "hide.me SOCKS"
+   },
+   "ext_default_title": {
+      "description": "",
+      "message": "hide.me Proxy"
+   },
+   "ext_description": {
+      "description": "",
+      "message": "Entsperren Sie jede Webseite mit hide.me Proxy!"
+   },
+   "ext_name": {
+      "description": "",
+      "message": "hide.me Proxy"
+   },
+   "features_best_servers": {
+      "description": "",
+      "message": "Superschnelle Proxy-Server in den USA, Kanada, den Niederlanden, Deutschland und Singapur ohne Beschränkungen."
+   },
+   "features_no_cost": {
+      "description": "",
+      "message": " Keine Kosten - Komplett kostenlose Proxy-Erweiterung. Erhalten Sie erstklassigen Online-Schutz und volle Freiheit für 0€."
+   },
+   "features_no_limit": {
+      "description": "",
+      "message": "Wir beschränken weder die Bandbreite noch Geschwindigkeit."
+   },
+   "features_premium": {
+      "description": "",
+      "message": "Zahlende hide.me VPN Kunden, könenn den hide.me SOCKS-Proxy mit einem Klick in den Einstellungen aktivieren. Verhindern Sie IP-Leaks, solange Sie mit unserem VPN verbunden sind."
+   },
+   "features_subtitle": {
+      "description": "",
+      "message": "\u003Ca href=\"https://hide.me/software\" target=\"_blank\">Download\u003C/a> our VPN to protect all apps."
+   },
+   "features_title": {
+      "description": "",
+      "message": "Funktionen, die niemand sonst anbieten kann!"
+   },
+   "features_unblock_websites": {
+      "description": "",
+      "message": " Entsperren Sie Websites, soziale Netzwerke und bleiben Sie dauerhaft anonym. Teilen Sie Ihre Meinung und machen Sie viel mehr im Internet mit der hide.me Proxy-Erweiterung."
+   },
+   "firefox_privacy": {
+      "description": "",
+      "message": "Firefox hat die Privatsphäre Einstellungen  \u003Ca href=\"https://blog.mozilla.org/addons/2019/03/26/extensions-in-firefox-67/\">für Erweiterungen geändert\u003C/a>, deshalb müssen Sie die Option \u003Cstrong>Ausführen der Erweiterung auch in privaten Fenstern erlauben\u003C/strong> aktivieren."
+   },
+   "language_setting": {
+      "description": "",
+      "message": "Sprache"
+   },
+   "language_settings_title": {
+      "description": "",
+      "message": "Sprache auswählen"
+   },
+   "locale_name": {
+      "description": "",
+      "message": "Deutsch"
+   },
+   "locations_title": {
+      "description": "",
+      "message": "Standorte"
+   },
+   "privacy_checkup_title": {
+      "description": "",
+      "message": "Privacy-Check"
+   },
+   "privacy_modal_body": {
+      "description": "",
+      "message": "Sie können auf unserer Webseite nachlesen, warum Sie WebRTC oder QUIC lieber deaktivieren sollten. Weitere Informationen finden Sie \u003Ca href='https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/'>hier\u003C/a>."
+   },
+   "privacy_modal_title": {
+      "description": "",
+      "message": "Privac-Check Informationen"
+   },
+   "privacy_policy_setting": {
+      "description": "",
+      "message": "Datenschutz"
+   },
+   "proxy_connection_error": {
+      "description": "",
+      "message": "Bei der Proxy-Verbindung ist ein Fehler aufgetreten."
+   },
+   "proxy_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Proxy kann nicht verwendet werden, weil eine andere Erweiterung die Proxy-Einstellungen kontrolliert."
+   },
+   "proxy_not_controllable_suggestion": {
+      "description": "",
+      "message": "Bitte deaktivieren Sie alle Erweiterungen, die mit hide.me nicht kompatibel sind."
+   },
+   "proxy_setting_error": {
+      "description": "",
+      "message": "Proxy kann nicht konfiguriert werden."
+   },
+   "quick_disabled_message": {
+      "description": "",
+      "message": "QUIC ist deaktiviert!"
+   },
+   "quick_enabled_message": {
+      "description": "",
+      "message": "QUIC ist aktiviert. Sie können die Einstellung \u003Ca href='https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/'>hier\u003C/a> deaktivieren."
+   },
+   "service_terms_setting": {
+      "description": "",
+      "message": "AGB"
+   },
+   "settings_title": {
+      "description": "",
+      "message": "Einstellungen"
+   },
+   "signup_button": {
+      "description": "",
+      "message": "JETZT ANMELDEN"
+   },
+   "status_connected": {
+      "description": "",
+      "message": "Verbunden"
+   },
+   "status_disconnected": {
+      "description": "",
+      "message": "Getrennt"
+   },
+   "status_off": {
+      "description": "",
+      "message": "OFF"
+   },
+   "status_on": {
+      "description": "",
+      "message": "ON"
+   },
+   "upgrade_now_button": {
+      "description": "",
+      "message": "JETZT HERUNTERLADEN"
+   },
+   "upgrade_now_message": {
+      "description": "",
+      "message": "Jetzt Premium VPN Apps herunterladen, um \u003Cb>alle Standorte\u003C/b> zu erreichen"
+   },
+   "warning_not_controllable": {
+      "description": "",
+      "message": "\u003Cstrong >Achtung!\u003C/strong> Eine andere Erweiterung kontrolliert webRTC."
+   },
+   "webrtc_disabled_message": {
+      "description": "",
+      "message": "WebRTC ist deaktiviert."
+   },
+   "webrtc_enabled_message": {
+      "description": "",
+      "message": "WebRTC ist deaktiviert!"
+   },
+   "webrtc_not_controllable": {
+      "description": "",
+      "message": " Eine andere Erweiterung kontrolliert webRTC."
+   },
+   "webrtc_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Proxy kann nicht verwendet werden, weil eine andere Erweiterung die WebRTC-Einstellungen kontrolliert."
+   },
+   "welcome_body": {
+      "description": "",
+      "message": "You are now protected with the super-secure and unbreakable shield of hide.me VPN browser extension. Explore the cyber world without any boundaries and get access to every website on the internet. Watch movies and do a lot more irrespective of the country you are currently residing in. And, don't worry, your real IP is completely hidden from intruders and third-parties, all they can see is a hide.me IP. Not even your ISP can trace anything back to you. So, what are you waiting for? Go and enjoy the ride! Sie sind jetzt mit der hide.me Proxy Erweiterung geschützt. Erforschen Sie die grenzenlose Cyber-Welt und erhalten Sie Zugang zu jeder Website im Internet. Egal was Sie machen, ob Sie Filme schauen, Nachrichten lesen oder Ihre Lieblinkswebseite besuchen, unabhängig davon, in welchem Land Sie sich gerade aufhalten. Und, keine Sorge, Ihre echte IP-Adresse bleibt vollständig verborgen. Sie sehen nur eine IP-Adresse von hide.me. Nicht einmal Ihr ISP kann etwas zu Ihnen zurückverfolgen. Also, worauf warten Sie? Genießen Sie ein unzensiertes Internet mit hide.me VPN!"
+   },
+   "welcome_title": {
+      "description": "",
+      "message": "Willkommen bei hide.me Proxy!"
+   }
+}

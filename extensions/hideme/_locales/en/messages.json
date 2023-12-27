@@ -1,0 +1,206 @@
+{
+   "always_enable_proxy_setting": {
+      "description": "",
+      "message": "Always Enable Proxy"
+   },
+   "automatic_fallback_setting": {
+      "description": "",
+      "message": "Automatic Fallback"
+   },
+   "badge_error": {
+      "description": "",
+      "message": "error"
+   },
+   "badge_off": {
+      "description": "",
+      "message": "off"
+   },
+   "contact_support_setting": {
+      "description": "",
+      "message": "Contact Support"
+   },
+   "disable_automatic_fallback_message": {
+      "description": "",
+      "message": "Please disable Automatic Fallback to enable this setting"
+   },
+   "disable_proxy_message": {
+      "description": "",
+      "message": "Disable Proxy to access this setting"
+   },
+   "disable_socks_message": {
+      "description": "",
+      "message": "Please disable hide.me SOCKS to enable this setting"
+   },
+   "disable_webrtc_setting": {
+      "description": "",
+      "message": "Disable WebRTC"
+   },
+   "enable_socks_setting": {
+      "description": "",
+      "message": "Enable SOCKS"
+   },
+   "ext_default_title": {
+      "description": "",
+      "message": "hide.me Proxy"
+   },
+   "ext_description": {
+      "description": "",
+      "message": "Unblock any website with hide.me Proxy!"
+   },
+   "ext_name": {
+      "description": "",
+      "message": "hide.me Proxy"
+   },
+   "features_best_servers": {
+      "description": "",
+      "message": "\u003Cstrong>Global network\u003C/strong> - Pick the location closest to you and browse without limits."
+   },
+   "features_no_cost": {
+      "description": "",
+      "message": "\u003Cstrong>Completely Free\u003C/strong> - We will never request personal information or payment details."
+   },
+   "features_no_limit": {
+      "description": "",
+      "message": "\u003Cstrong>Apps for all devices\u003C/strong> - We have apps for Windows, Android, iOS and macOS."
+   },
+   "features_premium": {
+      "description": "",
+      "message": "\u003Cstrong>IPv6 and WireGuard®\u003C/strong> - Join the only VPN that offers the latest technology."
+   },
+   "features_subtitle": {
+      "description": "",
+      "message": "\u003Ca href=\"https://hide.me/software\" target=\"_blank\">Download\u003C/a> our VPN to protect all apps."
+   },
+   "features_title": {
+      "description": "",
+      "message": "Sign up for our Free VPN"
+   },
+   "features_unblock_websites": {
+      "description": "",
+      "message": "\u003Cstrong>Unblock websites\u003C/strong> - Speak out your mind and do lot more on the internet with hide.me VPN."
+   },
+   "firefox_privacy": {
+      "description": "",
+      "message": "Due to latest \u003Ca href=\"https://blog.mozilla.org/addons/2019/03/26/extensions-in-firefox-67/\">Firefox changes to extension\u003C/a> privacy settings you need to \u003Cstrong>allow this extension to run in Private Mode\u003C/strong> in order for it to function."
+   },
+   "language_setting": {
+      "description": "",
+      "message": "Language"
+   },
+   "language_settings_title": {
+      "description": "",
+      "message": "Select Language"
+   },
+   "locale_name": {
+      "description": "",
+      "message": "English"
+   },
+   "locations_title": {
+      "description": "",
+      "message": "Locations"
+   },
+   "privacy_checkup_title": {
+      "description": "",
+      "message": "Privacy Checkup"
+   },
+   "privacy_modal_body": {
+      "description": "",
+      "message": "You can read on our website why you should disable WebRTC or QUIC. More information can be found \u003Ca href='https://hide.me/en/blog/2018/09/hide-me-vpn-protects-your-browser/'>here\u003C/a>."
+   },
+   "privacy_modal_title": {
+      "description": "",
+      "message": "Privacy Checkup"
+   },
+   "privacy_policy_setting": {
+      "description": "",
+      "message": "Privacy Policy "
+   },
+   "proxy_connection_error": {
+      "description": "",
+      "message": "An error occured with the proxy connection"
+   },
+   "proxy_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Proxy cannot work because another extension is controlling your proxy settings."
+   },
+   "proxy_not_controllable_suggestion": {
+      "description": "",
+      "message": "Please disable other services that might interfere with hide.me."
+   },
+   "proxy_setting_error": {
+      "description": "",
+      "message": "Error Setting Regular Proxy"
+   },
+   "quick_disabled_message": {
+      "description": "",
+      "message": "QUIC is disabled!"
+   },
+   "quick_enabled_message": {
+      "description": "",
+      "message": "\u003Cstrong>Quic is enabled\u003C/strong>. To turn it off follow this \u003Ca href=\"https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/\" target=\"_blank\">link\u003C/a>."
+   },
+   "service_terms_setting": {
+      "description": "",
+      "message": "Terms of Service "
+   },
+   "settings_title": {
+      "description": "",
+      "message": "Settings"
+   },
+   "signup_button": {
+      "description": "",
+      "message": "Get FREE VPN"
+   },
+   "status_connected": {
+      "description": "",
+      "message": "Connected"
+   },
+   "status_disconnected": {
+      "description": "",
+      "message": "Disconnected"
+   },
+   "status_off": {
+      "description": "",
+      "message": "OFF"
+   },
+   "status_on": {
+      "description": "",
+      "message": "ON"
+   },
+   "upgrade_now_button": {
+      "description": "",
+      "message": "DOWLOAD NOW"
+   },
+   "upgrade_now_message": {
+      "description": "",
+      "message": "Download our VPN apps to \u003Cb>access all\u003C/b> server locations "
+   },
+   "warning_not_controllable": {
+      "description": "",
+      "message": "\u003Cstrong >Warning!\u003C/strong> Other extension is controlling your WebRTC settings."
+   },
+   "webrtc_disabled_message": {
+      "description": "",
+      "message": "WebRTC is disabled"
+   },
+   "webrtc_enabled_message": {
+      "description": "",
+      "message": "WebRTC is enabled!"
+   },
+   "webrtc_not_controllable": {
+      "description": "",
+      "message": " Other extension is controlling your WebRTC settings."
+   },
+   "webrtc_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Proxy cannot work because another extension is controlling your WebRTC settings."
+   },
+   "welcome_body": {
+      "description": "",
+      "message": "Thanks for installing our free browser extension. Now you can activate our free proxy servers and browse the internet without boundaries.\u003Cbr>\u003Cbr>\nThe extension takes care of your privacy and prevents unwanted WebRTC leaks. The feature can be controlled in the settings.\u003Cbr>\u003Cbr>\nHide.me customers can enable a SOCKS proxy in the settings, which can be used in combination with an active VPN connection to prevent IP leaks."
+   },
+   "welcome_title": {
+      "description": "",
+      "message": "Welcome to hide.me VPN"
+   }
+}

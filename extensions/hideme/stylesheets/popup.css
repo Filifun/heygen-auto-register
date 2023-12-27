@@ -1,0 +1,397 @@
+body {
+    /* Change width and height to own preferences */
+    width: 258px;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue";
+}
+
+
+
+.main {
+    height: 100%;
+    position: relative;
+    transition: left .1s linear;
+    left: 0px;
+}
+
+.main .child {
+    height: 50px;
+    padding: 10px;
+}
+
+
+#row_logo {
+    padding-left: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #09a2cb;
+}
+
+#row_logo .glyphicon {
+    float: right;
+    font-size: 18px;
+    margin-top: 11px;
+    color: #FFF;
+    padding-right: 4px;
+}
+
+#row_logo img {
+    height: 40px;
+}
+
+#row_connect {
+    /*border-bottom: 1px solid #BBB;*/
+}
+
+.toggle_switch {
+    float: right;
+    margin-top: 5px;
+    padding-right: 4px;
+}
+
+.connection_status {
+    float: left;
+    margin-top: 5px;
+}
+
+
+
+.connection_status.disconnected .sym {
+    color: #e1e1e1;
+}
+
+.connection_status.connected .sym {
+    color: #87c42b;
+}
+
+.connection_status .indicator {
+    color: #808080;
+    /*font-weight: 300;*/
+    /*letter-spacing: 0.04em;*/
+    font-size: 14px;
+}
+
+.extension_error {
+    position: relative;
+    display: none;
+    background-color: #d72630;
+    color: #FFF;
+}
+
+.extension_error .close_error {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.extension_error .error_message {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.extension_error .error_message .exclamation {
+    font-weight: 600;
+}
+
+.extension_error .error_message p {
+    margin: 0px;
+    margin-bottom: 3px;
+    word-wrap: break-word;
+}
+
+.extension_error .glyphicon {
+    float: left;
+    width: 10%;
+    height: 100%;
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 22px;
+}
+
+
+
+#row_select_server {
+    background-color: #edf2f5;
+}
+
+#row_select_server.disabled {
+    filter: grayscale(100%);
+}
+
+#row_select_server .server_location {
+    float: left;
+    margin-top: 5px;
+    color: #808080;
+    font-weight: normal;
+    /*letter-spacing: 0.04em;*/
+    font-size: 14px;
+}
+
+#row_select_server .server_location .server_flag {
+    padding-right: 5px;
+}
+
+
+#row_select_server .arrow {
+    float: right;
+    margin-top: 5px;
+    padding-right: 4px;
+    color: #0acaf7;
+}
+
+
+.main .not_controllable {
+    display: none;
+}
+
+.main .not_controllable img {
+    padding-left: 31px;
+}
+
+.main .not_controllable .error_message {
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-align: center;
+    color: #333333;
+    font-weight: 500;
+    margin: 0 0 15px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.main .not_controllable .suggestion_box {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 20px;
+    border-top: 2px solid #eef2f3;
+}
+
+.suggestion_box p {
+    color: #808080;
+    letter-spacing: 0.01em;
+}
+
+.servers_list,
+.settings,
+.language_settings {
+    position: absolute;
+    top: 0;
+    overflow-y: auto;
+    height: 100%;
+    left: 258px;
+    width: 100%;
+    transition: left .1s linear;
+}
+
+
+
+
+
+.servers_list ul {
+    list-style-type: none;
+    padding-left: 0px;
+    top: 50px;
+    position: absolute;
+}
+
+.servers_list li {
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 13px;
+}
+
+
+
+.servers_list li .server_flag {
+    float: left;
+}
+
+
+.servers_list li .server_name {
+    float: left;
+    margin-left: 10px;
+    width: 190px;
+    border-bottom: 2px solid #f2f2f4;
+    padding-bottom: 8px;
+}
+
+
+
+.servers_list .header,
+.settings .header,
+.language_settings .header {
+    background-color: #09a2cb;
+    height: 50px;
+    width: 100%;
+    /*position: fixed;*/
+    z-index: 3;
+    padding-top: 17px;
+    padding-left: 10px;
+    color: #FFF;
+}
+
+.servers_list .location {
+    position: relative;
+}
+
+
+/*.servers_list .location .arrow {
+    position: fixed;
+}
+*/
+
+.servers_list .location .header_title {
+    font-weight: normal;
+    /*letter-spacing: 0.04em;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    padding-right: 8px;
+}
+
+
+.main_background {
+    margin-bottom: 15px;
+}
+
+.main_background img {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.main_background .message {
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
+    color: #7c7c7c;
+    /*font-weight: 300;*/
+    /*letter-spacing: 0.03em;*/
+}
+
+.main_button {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    background-color: #87c42b;
+}
+
+.main_button a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.main_button a {
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+.main_button p {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    /*letter-spacing: 0.03em;*/
+}
+
+
+
+
+/*.settings::-webkit-scrollbar {
+    width: 10px;
+}
+*/
+
+.settings .content,
+.language_settings .content {
+    position: relative;
+}
+
+
+.servers_list .location .arrow,
+.settings .content .arrow,
+.language_settings .content .arrow {
+    float: left;
+    z-index: 100;
+}
+
+.settings .header .content .header_title,
+.language_settings .header .content .header_title {
+    font-weight: normal;
+    /*letter-spacing: 0.09em;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    padding-right: 22px;
+}
+
+
+
+.settings .settings_container,
+.language_settings .settings_container {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+.settings a:hover,
+.language_settings a:hover {
+    text-decoration: none;
+}
+
+
+.setting .content {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f2f2f4;
+}
+
+.setting .key {
+    color: #09a2cb;
+}
+
+.setting .value {
+    float: right;
+    color: #727272;
+    position: absolute;
+    left: 198px;
+}
+
+
+.main::-webkit-scrollbar,
+.settings::-webkit-scrollbar,
+.servers_list::-webkit-scrollbar,
+.language_settings::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+.not_controllable_alert {
+    margin-bottom: 0px;
+    display: none;
+}
+
+body,
+.main,
+.settings,
+.servers_list,
+.language_settings {
+    overflow: -moz-scrollbars-none;
+}
+
+.u-m0 {
+    margin: 0;
+}

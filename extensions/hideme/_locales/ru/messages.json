@@ -1,0 +1,206 @@
+{
+   "always_enable_proxy_setting": {
+      "description": "",
+      "message": "Всегда включить прокси"
+   },
+   "automatic_fallback_setting": {
+      "description": "",
+      "message": "Automatic Fallback"
+   },
+   "badge_error": {
+      "description": "",
+      "message": "ошибка"
+   },
+   "badge_off": {
+      "description": "",
+      "message": "выкл"
+   },
+   "contact_support_setting": {
+      "description": "",
+      "message": "Обратиться в службу поддержки"
+   },
+   "disable_automatic_fallback_message": {
+      "description": "",
+      "message": "Please disable Automatic Fallback to enable this setting"
+   },
+   "disable_proxy_message": {
+      "description": "",
+      "message": "Отключите прокси для доступа к этой настройке"
+   },
+   "disable_socks_message": {
+      "description": "",
+      "message": "Пожалуйста, отключите hide.me SOCKS, чтобы включить эту настройку."
+   },
+   "disable_webrtc_setting": {
+      "description": "",
+      "message": "Выключить WebRTC"
+   },
+   "enable_socks_setting": {
+      "description": "",
+      "message": "Включить SOCKS"
+   },
+   "ext_default_title": {
+      "description": "",
+      "message": "hide.me Прокси "
+   },
+   "ext_description": {
+      "description": "",
+      "message": "Разблокируйте любой сайт с помощью hide.me Proxy!"
+   },
+   "ext_name": {
+      "description": "",
+      "message": "hide.me Прокси для Chrome"
+   },
+   "features_best_servers": {
+      "description": "",
+      "message": "Лучшие серверы расположенные в США, Канаде, Нидерландах, Германии и Сингапуре без ограничения пропускной способности."
+   },
+   "features_no_cost": {
+      "description": "",
+      "message": "Без никакой цены - Полностью бесплатное расширение VPN. Получите превосходную онлайн-защиту и полную свободу за $0."
+   },
+   "features_no_limit": {
+      "description": "",
+      "message": "Мы не ограничиваем пропускную способность на нашем сервисе."
+   },
+   "features_premium": {
+      "description": "",
+      "message": "Премиум-функция позволяет подключиться к hide.me SOCKS, чтобы избежать утечек IP для безопасности наивысшего уровня."
+   },
+   "features_subtitle": {
+      "description": "",
+      "message": "\u003Ca href=\"https://hide.me/software\" target=\"_blank\">Download\u003C/a> our VPN to protect all apps."
+   },
+   "features_title": {
+      "description": "",
+      "message": "Непревзойдённые особенности, которые вы нигде кроме тут не найдёте "
+   },
+   "features_unblock_websites": {
+      "description": "",
+      "message": "Разблокируйте веб-сайты, социальные платформы, выскажите свое мнение и делайте гораздо больше в Интернете с помощью расширения hide.me VPN."
+   },
+   "firefox_privacy": {
+      "description": "",
+      "message": "Due to latest \u003Ca href=\"https://blog.mozilla.org/addons/2019/03/26/extensions-in-firefox-67/\">Firefox changes to extension\u003C/a> privacy settings you need to \u003Cstrong>allow this extension to run in Private Mode\u003C/strong> in order for it to function."
+   },
+   "language_setting": {
+      "description": "",
+      "message": "Язык"
+   },
+   "language_settings_title": {
+      "description": "",
+      "message": "Выбор языка"
+   },
+   "locale_name": {
+      "description": "",
+      "message": "Русский"
+   },
+   "locations_title": {
+      "description": "",
+      "message": "Местоположения Серверов"
+   },
+   "privacy_checkup_title": {
+      "description": "",
+      "message": "Проверка Конфидециальности"
+   },
+   "privacy_modal_body": {
+      "description": "",
+      "message": "Вы можете прочитать на нашем сайте, почему вы должны отключить WebRTC или QUIC. Более подробную информацию можно найти \u003Ca href='https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/'>здесь\u003C/a>."
+   },
+   "privacy_modal_title": {
+      "description": "",
+      "message": "Проверка Конфидециальности"
+   },
+   "privacy_policy_setting": {
+      "description": "",
+      "message": "Политика Конфиденциальности"
+   },
+   "proxy_connection_error": {
+      "description": "",
+      "message": "Произошла ошибка с прокси-соединением"
+   },
+   "proxy_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Прокси не может работать, потому что другое расширение контролирует ваши настройки прокси."
+   },
+   "proxy_not_controllable_suggestion": {
+      "description": "",
+      "message": "Отключите другие расширения, которые могут помешать работе hide.me."
+   },
+   "proxy_setting_error": {
+      "description": "",
+      "message": "Ошибка при установке обычного прокси"
+   },
+   "quick_disabled_message": {
+      "description": "",
+      "message": "QUIC отключен!"
+   },
+   "quick_enabled_message": {
+      "description": "",
+      "message": "ВАШ QUIC ВКЛЮЧЕН. Чтобы отключить его, перейдите по этой  \u003Ca href='https://hide.me/en/knowledgebase/how-to-disable-webrtc-and-prevent-leaks/'>ссылке\u003C/a>."
+   },
+   "service_terms_setting": {
+      "description": "",
+      "message": "Условия использования"
+   },
+   "settings_title": {
+      "description": "",
+      "message": "Настройки"
+   },
+   "signup_button": {
+      "description": "",
+      "message": "ЗАРЕГИСТРИРОВАТЬСЯ"
+   },
+   "status_connected": {
+      "description": "",
+      "message": "Подключен"
+   },
+   "status_disconnected": {
+      "description": "",
+      "message": "Отключен"
+   },
+   "status_off": {
+      "description": "",
+      "message": "ВЫКЛ"
+   },
+   "status_on": {
+      "description": "",
+      "message": "ВКЛ"
+   },
+   "upgrade_now_button": {
+      "description": "",
+      "message": "ОБНОВИТЬ СЕЙЧАС"
+   },
+   "upgrade_now_message": {
+      "description": "",
+      "message": "Download our VPN apps to \u003Cb>access all\u003C/b> server locations "
+   },
+   "warning_not_controllable": {
+      "description": "",
+      "message": "\u003Cstrong >Внимание!\u003C/strong> Другое расширение контролирует ваши настройки webRTC."
+   },
+   "webrtc_disabled_message": {
+      "description": "",
+      "message": "WebRTC отключен"
+   },
+   "webrtc_enabled_message": {
+      "description": "",
+      "message": "WebRTC включен!"
+   },
+   "webrtc_not_controllable": {
+      "description": "",
+      "message": "Другое расширение контролирует ваши настройки webRTC."
+   },
+   "webrtc_not_controllable_error": {
+      "description": "",
+      "message": "hide.me Прокси не может работать, потому что другое расширение контролирует ваши настройки WebRTC."
+   },
+   "welcome_body": {
+      "description": "",
+      "message": "Теперь вы защищены супер-безопасным и нерушимым щитом расширения hide.me VPN. Исследуйте кибер-мир без каких-либо ограничений и получите доступ к любому веб-сайту в Интернете. Смотрите фильмы и делайте гораздо больше, независимо от страны, в которой вы сейчас находитесь. И, не волнуйтесь, ваш реальный IP-адрес полностью скрыт от злоумышленников и третьих сторон, все, что они могут видеть, это IP-адрес hide.me.  Даже ваш интернет-провайдер не сможет ничего проследить за вами. Так, чего же вы ждете? Наслаждайтесь свободой."
+   },
+   "welcome_title": {
+      "description": "",
+      "message": "Добро пожаловать в самую безопасную поездку в Интернете!"
+   }
+}

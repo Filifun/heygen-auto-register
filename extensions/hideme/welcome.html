@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title data-localize="__MSG_welcome_title__">Welcome To The Safest Ride On The Internet!</title>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/privacy.js"></script>
+    <script src="javascripts/localization.js"></script>
+    <script src="javascripts/utils.js"></script>
+    <script src="javascripts/welcome.js"></script>
+    <script src="javascripts/firefox.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/welcome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <a class="u-left" href="https://hide.me">
+                <img class="header_logo" src="./images/logo_original.svg">
+            </a>
+            <a href="https://hide.me/pricing" class="signup_btn u-right">
+                <button class="btn btn-primary" type="button" data-localize="__MSG_signup_button__">Get FREE VPN</button>
+            </a>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <p class="firefox-notification alert alert-warning text-center hidden">
+                Due to latest <a href="https://blog.mozilla.org/addons/2019/03/26/extensions-in-firefox-67/">Firefox changes to extension</a> privacy settings you need to <strong>allow this extension to run in Private Mode</strong> in order for it to function.
+            </p>
+            <div class="row">
+                <div class="col-md-4 col-md-push-8">
+                    <div class="welcome_extension">
+                        <img src="images/welcome-extension@2x.png">
+                    </div>
+                </div>
+                <div class="col-md-7 col-md-pull-4">
+                    <h3 class="main_title" data-localize="__MSG_welcome_title__">Welcome to hide.me VPN</h3> <span data-localize="__MSG_welcome_body__">Thanks for installing our free browser extension. Now you can activate our free proxy servers and browse the internet without boundaries.<br><br>
+                    The extension takes care of your privacy and prevents unwanted WebRTC leaks. The feature can be controlled in the settings.<br><br>
+                    Hide.me customers can enable a SOCKS proxy in the settings, which can be used in combination with an active VPN connection to prevent IP leaks.</span>
+                    <br><br>
+                    <a href="https://hide.me/pricing" class="signup_btn"><button class="btn btn-primary" type="button" data-localize="__MSG_signup_button__">Get FREE VPN</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="privacy_checkup">
+                    <h3 class="main_title"> <span data-localize="__MSG_privacy_checkup_title__">Privacy Checkup</span>
+                   <span data-toggle="modal" data-target="#myModal" class="glyphicon glyphicon-info-sign privacy_info_sup" aria-hidden="true"></span>
+                </h3>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="vertical-alignment-helper">
+                            <div class="modal-dialog vertical-align-center">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel" data-localize="__MSG_privacy_modal_title__">Privacy Info modal</h4>
+                                    </div>
+                                    <div class="modal-body" data-localize="__MSG_privacy_modal_body__">Privacy info</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="privacy_state ">
+                        <div class="row privacy_not_ok privacy_quic">
+                            <div class="col-md-2  col-sm-2  col-xs-2 sym">&#9679;</div>
+                            <div class="col-md-10 desc" data-localize="__MSG_quick_enabled_message__">YOUR QUIC IS ENABLED. To turn it off follow this <a href='chrome://flags/#enable-quic'>link </a></div>
+                        </div>
+                    </div>
+                    <div class="privacy_state ">
+                        <div class="row privacy_ok privacy_webrtc">
+                            <div class="col-md-2  col-sm-2  col-xs-2  sym">&#9679;</div>
+                            <div class="col-md-10 desc" data-localize="__MSG_webrtc_disabled_message__">WebRTC is disabled</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 feature_presentation">
+                <div class="clearfix"></div>
+                <h3 class="main_title" data-localize="__MSG_features_title__">
+                 Sign up for our Free VPN
+                 </h3>
+                <h4 class="main_title" data-localize="__MSG_features_subtitle__">
+                 <a href="https://hide.me/software" target="_blank">Download</a> our VPN to protect all apps.
+                 </h4>
+
+                <div class="feature row">
+                    <div class="col-md-1 col-sm-1  col-xs-1 ">
+                        <span class="feature_label">
+                           <img src="images/free-vpn@2x.png">
+                        </span>
+                    </div>
+                    <div class="col-md-7 col-sm-11  col-xs-11  feature_description">
+                        <span class="feature_description_text" data-localize="__MSG_features_no_cost__">
+                        <strong>Completely Free</strong> - We will never request personal information or payment details.
+                    </span>
+                    </div>
+                </div>
+                <div class="feature row">
+                    <div class="col-md-1 col-sm-1  col-xs-1">
+                        <span class="feature_label">
+                       <img src="images/smooth-connect@2x.png">
+                    </span>
+                    </div>
+                    <div class="col-md-7 col-sm-11  col-xs-11 feature_description">
+                        <span class="feature_description_text" data-localize="__MSG_features_unblock_websites__">
+                         <strong>Unblock websites</strong> - Speak out your mind and do lot more on the internet with hide.me VPN.
+                    </span>
+                    </div>
+                </div>
+                <div class="feature row">
+                    <div class="col-md-1 col-sm-1  col-xs-1">
+                        <span class="feature_label">
+                        <img src="images/server-location@2x.png">
+                    </span>
+                    </div>
+                    <div class="col-md-7 col-sm-11  col-xs-11 feature_description">
+                        <span class="feature_description_text" data-localize="__MSG_features_best_servers__">
+                         <strong>Global network</strong> - Pick the location closest to you and browse without limits.
+                    </span>
+                    </div>
+                </div>
+                <div class="feature row">
+                    <div class="col-md-1 col-sm-1  col-xs-1">
+                        <span class="feature_label">
+                         <img src="images/kill-switch@2x.png">
+                    </span>
+                    </div>
+                    <div class="col-md-7 col-sm-11  col-xs-11 feature_description">
+                        <span class="feature_description_text" data-localize="__MSG_features_no_limit__">
+                         <strong>Apps for all devices</strong> - We have apps for Windows, Android, iOS and macOS.
+                    </span>
+                    </div>
+                </div>
+                <div class="feature row">
+                    <div class="col-md-1 col-sm-1  col-xs-1">
+                        <span class="feature_label">
+                         <img src="images/ip@2x.png">
+                    </span>
+                    </div>
+                    <div class="col-md-7 col-sm-11  col-xs-11 feature_description">
+                        <span class="feature_description_text" data-localize="__MSG_features_premium__">
+                          <strong>IPv6 and WireGuard®</strong> - Join the only VPN that offers the latest technology.
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quic">
+    </div>
+</body>
+
+</html>

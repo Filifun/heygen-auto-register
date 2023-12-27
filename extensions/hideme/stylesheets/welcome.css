@@ -1,0 +1,183 @@
+.body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    color: rgba(0, 0, 0, .6);
+    -webkit-font-smoothing: antialiased
+}
+
+.container,
+.container-fluid {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    color: rgba(0, 0, 0, .6);
+    -webkit-font-smoothing: antialiased
+}
+
+.navbar {
+    background-color: #0b3754;
+    font-weight: 600;
+}
+
+.navbar .container {
+    padding: 10px;
+}
+
+.header_logo {
+    height: 45px;
+}
+
+.u-left {
+    float: left;
+}
+
+.u-right {
+    float: right;
+}
+
+.signup_btn {
+    padding-top: 7px;
+}
+
+
+.signup_btn .btn {
+    background-color: #fad033;
+    border: none;
+    color: #32383f;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 6px 15px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.signup_btn .btn:hover {
+    background-color: #F9C913
+}
+
+.jumbotron {
+    margin-top: 65px;
+    margin-bottom: 0px;
+    background-color: #edf2f5;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h3.main_title {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.welcome_extension img {
+    width: 100%;
+}
+
+.feature_presentation {
+    background-color: #f7fbfc;
+    padding-left: 2em;
+}
+
+.feature_presentation,
+.privacy_checkup {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.feature {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feature_label img {
+    padding-top: 20px;
+    height: 60px;
+}
+
+.feature_description {
+    height: 60px;
+    line-height: 60px;
+}
+
+.feature_description_text {
+    padding-left: 60px;
+    display: inline-block;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+@media (min-width: 992px) {
+    .privacy_checkup {
+        float: right;
+        padding-right: 50px;
+    }
+
+    .privacy_state {
+        width: 300px;
+    }
+}
+
+
+.privacy_state .sym {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.privacy_not_ok .sym {
+    color: #fe0120;
+}
+
+.privacy_ok .sym {
+    color: #7ed320;
+}
+
+.privacy_state .row {
+    display: none;
+}
+
+.privacy_info_sup {
+    vertical-align: super;
+    font-size: 0.5em;
+    color: #337ab7;
+} 
+
+.privacy_info_sup:hover {
+    color: #286090;
+}
+
+
+.modal-dialog.vertical-align-center {
+    margin-top: 15%;
+}
+
+
+
+.vertical-alignment-helper_ {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center_ {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content_ {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events:all;
+}

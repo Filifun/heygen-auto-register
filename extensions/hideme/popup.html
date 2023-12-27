@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title data-localize="__MSG_ext_name__">hide.me Proxy for Chrome</title>
+    <script src="javascripts/jquery.min.js"></script>
+     <script src="javascripts/jquery.mousewheel.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery-ui.min.js"></script>
+    <script src="javascripts/icon-badge.js"></script>
+    <script src="javascripts/proxy.js"></script>
+    <script src="javascripts/localization.js"></script>
+    <script src="javascripts/utils.js"></script>
+    <script src="javascripts/popup.js"></script>
+    <script src="javascripts/servers.js"></script>
+    <script src="javascripts/privacy.js"></script>
+    <script src="javascripts/firefox.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- Cascading Style Sheets -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/tooltip.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/toggle.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/popup.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <div class="main">
+        <div class="child" id="row_logo">
+            <img class="o-headerlogo" src="./images/logo_original.svg" alt="hide.me VPN">
+            <span class="glyphicon glyphicon-cog" id="settings_view" aria-hidden="true"></span>
+        </div>
+        <div class="not_controllable_alert alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span data-localize="__MSG_warning_not_controllable__"> 
+            <strong >Warning!</strong>Other extension is controlling your webRTC settings.</span>
+        </div>
+        <p class="firefox-notification alert alert-warning text-center u-m0 hidden" data-localize="__MSG_firefox_privacy__">
+            Due to latest <a href="https://blog.mozilla.org/addons/2019/03/26/extensions-in-firefox-67/">Firefox changes to extension</a> privacy settings you need to <strong>allow this extension to run in Private Mode</strong> in order for it to function.
+        </p>
+        <div class="content">
+            <div class="child" id="row_connect">
+                <section class="connection_status disconnected">
+                    <span class="sym">&#9679;</span> <span class="indicator" data-localize="__MSG_status_disconnected__">Disconnected</span>
+                </section>
+                <section class="toggle_switch">
+                    <div class="switch">
+                        <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                        <label class="proxy_toggle" for="cmn-toggle-1"></label>
+                    </div>
+                </section>
+            </div>
+            <div class="child" id="row_select_server">
+                <span class="server_location selected_server"><span class="server_flag"><img src="./images/flags/auto.png"></span> <span class="server_name">Automatic</span> </span>
+                <span class="arrow"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></span>
+            </div>
+            <div class="main_background">
+                <img src="./images/server-locations@1x.svg">
+                <div class="message">
+                    <p data-localize="__MSG_upgrade_now_message__">Upgrade to <b>access all</b> server locations </p>
+                </div>
+            </div>
+            <div class="main_button">
+                <a href="https://hide.me/pricing">
+                    <p data-localize="__MSG_upgrade_now_button__">UPGRADE NOW</p>
+                </a>
+            </div>
+        </div>
+        <div class="not_controllable">
+            <img src="./images/error-icon@1x.svg">
+            <p class="error_message" data-localize="__MSG_proxy_not_controllable_error__">
+                hime.me VPN cannot work because other extension is controlling your proxy settings.
+            </p>
+            <div class="suggestion_box">
+                <p data-localize="__MSG_proxy_not_controllable_suggestion__">Please disable other services that might interfere with hide.me.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="servers_list">
+        <div class="header">
+            <div class="location">
+                <span class="arrow"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></span>
+                <p class="header_title" data-localize="__MSG_locations_title__">Locations</p>
+            </div>
+        </div>
+        <ul>
+        </ul>
+    </div>
+    <div class="settings">
+        <div class="header">
+            <div class="content">
+                <span class="arrow"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></span>
+                <p class="header_title" data-localize="__MSG_settings_title__">Settings</p>
+            </div>
+        </div>
+        <div class="settings_container">
+            <div class="setting">
+                <div class="content">
+                    <span class="key webrtc" data-localize="__MSG_disable_webrtc_setting__">Disable WebRTC</span>
+                    <span class="value">
+                        <div class="switch">
+                            <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="cmn-toggle-2"></label>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div class="setting">
+                <div class="content">
+                    <span class="key enable_socks" data-localize="__MSG_enable_socks_setting__">Enable SOCKS</span>
+                    <span class="value">
+                        <div class="switch">
+                            <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="cmn-toggle-3"></label>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div class="setting">
+                <div class="content">
+                    <span class="key always_eable_proxy" data-localize="__MSG_always_enable_proxy_setting__">Always Enable Proxy</span>
+                    <span class="value">
+                        <div class="switch">
+                            <input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="cmn-toggle-4"></label>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div class="setting">
+                <div class="content" id="language_settings_view">
+                    <span class="key" data-localize="__MSG_language_setting__">Language</span> <span class="value" data-localize="__MSG_locale_name__">English</span>
+                </div>
+            </div>
+            <div class="setting">
+                <a href="https://hide.me/en/support">
+                    <div class="content">
+                        <span class="key" data-localize="__MSG_contact_support_setting__">Contact Support</span> <span class="value"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="setting">
+                <a href="https://hide.me/legal">
+                    <div class="content">
+                        <span class="key" data-localize="__MSG_service_terms_setting__">Terms of Service </span> <span class="value"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="setting">
+                <a href="https://hide.me/privacy">
+                    <div class="content">
+                        <span class="key" data-localize="__MSG_privacy_policy_setting__">Privacy Policy </span> <span class="value"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="language_settings">
+        <div class="header">
+            <div class="content">
+                <span class="arrow"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></span>
+                <p class="header_title" data-localize="__MSG_language_settings_title__">Lanuguage Settings</p>
+            </div>
+        </div>
+        <div class="settings_container">
+            <div class="setting">
+                <div class="content">
+                    <span class="key" value='id'>Bahasa Indonesia</span>
+                </div>
+            </div>
+            <div class="setting">
+                <div class="content">
+                    <span class="key" value='en'>English</span>
+                </div>
+            </div>
+            <div class="setting">
+                <div class="content">
+                    <span class="key" value='de'>Deutsch</span>
+                </div>
+            </div>
+            <div class="setting">
+                <div class="content">
+                    <span class="key" value='ru'>Русский</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

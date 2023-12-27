@@ -1,0 +1,4 @@
+playwright==1.38.0
+environs
+requests
+loguru

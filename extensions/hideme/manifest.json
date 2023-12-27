@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "javascripts/proxy.js", "javascripts/privacy.js", "javascripts/icon-badge.js", "javascripts/servers.js", "javascripts/utils.js", "javascripts/localization.js", "javascripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon16_off.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_ext_default_title__"
+   },
+   "content_scripts": [ {
+      "js": [ "./javascripts/content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "homepage_url": "https://hide.me/",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16_off.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlKVksC3l+Wo7WtCa4HnnNfh/pDRH3KnU6gEjxK3Qo+ZdKtTqszrWSgJIHIrfspr3EowtbnK+VM984SnS4PCzTBO8UUfzQ0hZtTrpJ9tFno3R5q+1djI9o+du6CUF07/7+xmiOGY/bigj7tRFS7aF9Gu5IGnFryDFRSS2XjuvXOPPGmzMacUoW5vhxo+AhO5SlNGjw0KPsk5GKsb/ism6z2e24cm8YQBSOOWj6orczBTe3iZVORuy2WzfaA+HbJknXIk/s+zMQwBtKm2ZzsJuY+LHBHVfeWf0exheIhXFPUmMlui9Pt2X6LmHB2HSEh7NOMbA3zqi3qJMrYN4oZgsxQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0.0",
+   "name": "__MSG_ext_name__",
+   "permissions": [ "alarms", "proxy", "\u003Call_urls>", "privacy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.4"
+}

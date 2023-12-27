@@ -1,0 +1,298 @@
+
+/* TOGGLE SWITCH STYLING */
+/* TOGGLE SWITCH IN MAIN VIEW, ID: cmn-toggle-1; */
+
+#cmn-toggle-1.cmn-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+#cmn-toggle-1.cmn-toggle+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+
+input#cmn-toggle-1.cmn-toggle-round+label {
+    padding: 2px;
+    width: 50px;
+    height: 20px;
+    background-color: #dddddd;
+    border-radius: 60px;
+}
+
+input#cmn-toggle-1.cmn-toggle-round+label:before,
+input#cmn-toggle-1.cmn-toggle-round+label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input#cmn-toggle-1.cmn-toggle-round+label:before {
+    right: 1px;
+    background-color: #878787;
+    border-radius: 40px;
+    transition: background 0.4s;
+    content: "__MSG_status_off__";
+    color: #FFF;
+    font-size: 9px;
+    padding-left: 22px;
+    /*font-weight: 300;*/
+    padding-top: 4px;
+    letter-spacing: 0.09375em;
+}
+
+input#cmn-toggle-1.cmn-toggle-round+label.error:before {
+    background-color: #F00 !important;
+}
+
+input#cmn-toggle-1.cmn-toggle-round+label.disabled:before {
+    background-color: #c7c7c7;
+}
+
+input#cmn-toggle-1.cmn-toggle-round+label.disabled:after {
+    background-color: #ececec;
+}
+
+
+
+input#cmn-toggle-1.cmn-toggle-round+label:after {
+    width: 19px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin 0.4s;
+}
+
+input#cmn-toggle-1.cmn-toggle-round:checked+label:before {
+    background-color: #87c42b;
+    content: "__MSG_status_on__";
+    font-size: 9px;
+    padding-top: 4px;
+    padding-left: 9px;
+    color: #FFF;
+    /*font-weight: 300;*/
+    letter-spacing: 0.09375em;
+}
+
+input#cmn-toggle-1.cmn-toggle-round:checked+label.error:before {
+    background-color: #F00 !important;
+}
+
+input#cmn-toggle-1.cmn-toggle-round:checked+label.disabled:before {
+    background-color: #c7c7c7;
+}
+
+
+
+input#cmn-toggle-1.cmn-toggle-round:checked+label:after {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+/* TOGGLE SWTICH FOR DISABLE WEB RTC SETTING, ID: #cmn-toggle-2; */
+
+#cmn-toggle-2.cmn-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+#cmn-toggle-2.cmn-toggle+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+
+input#cmn-toggle-2.cmn-toggle-round+label {
+    padding: 2px;
+    width: 50px;
+    height: 20px;
+    background-color: #dddddd;
+    border-radius: 60px;
+}
+
+input#cmn-toggle-2.cmn-toggle-round+label:before,
+input#cmn-toggle-2.cmn-toggle-round+label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input#cmn-toggle-2.cmn-toggle-round+label:before {
+    right: 1px;
+    background-color: #878787;
+    border-radius: 40px;
+    transition: background 0.4s;
+    content: "__MSG_status_off__";
+    color: #FFF;
+    font-size: 9px;
+    padding-left: 22px;
+    /*font-weight: 300;*/
+    padding-top: 4px;
+    letter-spacing: 0.09375em;
+}
+
+input#cmn-toggle-2.cmn-toggle-round+label:after {
+    width: 19px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin 0.4s;
+}
+
+input#cmn-toggle-2.cmn-toggle-round:checked+label:before {
+    background-color: #87c42b;
+    content: "__MSG_status_on__";
+    font-size: 9px;
+    padding-top: 4px;
+    padding-left: 9px;
+    color: #FFF;
+    /*font-weight: 300;*/
+    letter-spacing: 0.09375em;
+}
+
+input#cmn-toggle-2.cmn-toggle-round:checked+label:after {
+    margin-left: 30px;
+}
+
+
+
+
+/* TOGGLE SWTICH FOR 'Enable SOCKS' SETTING, ID: #cmn-toggle-3; */
+/* TOGGLE SWTICH FOR 'Always Enable Proxy' SETTING, ID: #cmn-toggle-4; */
+/* TOGGLE SWTICH FOR 'Automatic Fallback' SETTING,  ID: #cmn-toggle-5; */
+
+#cmn-toggle-3.cmn-toggle,
+#cmn-toggle-4.cmn-toggle,
+#cmn-toggle-5.cmn-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+#cmn-toggle-3.cmn-toggle+label,
+#cmn-toggle-4.cmn-toggle+label,
+#cmn-toggle-5.cmn-toggle+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+
+input#cmn-toggle-3.cmn-toggle-round+label,
+input#cmn-toggle-4.cmn-toggle-round+label,
+input#cmn-toggle-5.cmn-toggle-round+label {
+    padding: 2px;
+    width: 50px;
+    height: 20px;
+    background-color: #dddddd;
+    border-radius: 60px;
+}
+
+input#cmn-toggle-3.cmn-toggle-round+label:before,
+input#cmn-toggle-3.cmn-toggle-round+label:after,
+input#cmn-toggle-4.cmn-toggle-round+label:before,
+input#cmn-toggle-4.cmn-toggle-round+label:after,
+input#cmn-toggle-5.cmn-toggle-round+label:before,
+input#cmn-toggle-5.cmn-toggle-round+label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input#cmn-toggle-3.cmn-toggle-round+label:before,
+input#cmn-toggle-4.cmn-toggle-round+label:before,
+input#cmn-toggle-5.cmn-toggle-round+label:before {
+    right: 1px;
+    background-color: #878787;
+    border-radius: 40px;
+    transition: background 0.4s;
+    content: "__MSG_status_off__";
+    color: #FFF;
+    font-size: 9px;
+    padding-left: 22px;
+    /*font-weight: 300;*/
+    padding-top: 4px;
+    letter-spacing: 0.09375em;
+}
+
+input#cmn-toggle-2.cmn-toggle-round+label.disabled:before,
+input#cmn-toggle-3.cmn-toggle-round+label.disabled:before,
+input#cmn-toggle-4.cmn-toggle-round+label.disabled:before,
+input#cmn-toggle-5.cmn-toggle-round+label.disabled:before {
+    background-color: #c7c7c7;
+}
+
+
+
+input#cmn-toggle-3.cmn-toggle-round+label:after,
+input#cmn-toggle-4.cmn-toggle-round+label:after,
+input#cmn-toggle-5.cmn-toggle-round+label:after {
+    width: 19px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin 0.4s;
+}
+
+
+input#cmn-toggle-2.cmn-toggle-round+label.disabled:after,
+input#cmn-toggle-3.cmn-toggle-round+label.disabled:after,
+input#cmn-toggle-4.cmn-toggle-round+label.disabled:after,
+input#cmn-toggle-5.cmn-toggle-round+label.disabled:after {
+    background-color: #ececec;
+}
+
+input#cmn-toggle-3.cmn-toggle-round:checked+label:before,
+input#cmn-toggle-4.cmn-toggle-round:checked+label:before,
+input#cmn-toggle-5.cmn-toggle-round:checked+label:before {
+    background-color: #87c42b;
+    content: "__MSG_status_on__";
+    font-size: 9px;
+    padding-top: 4px;
+    padding-left: 9px;
+    color: #FFF;
+    /*font-weight: 300;*/
+    letter-spacing: 0.09375em;
+}
+
+
+input#cmn-toggle-2.cmn-toggle-round:checked+label.disabled:before,
+input#cmn-toggle-3.cmn-toggle-round:checked+label.disabled:before,
+input#cmn-toggle-4.cmn-toggle-round:checked+label.disabled:before,
+input#cmn-toggle-5.cmn-toggle-round:checked+label.disabled:before {
+    background-color: #c7c7c7;
+}
+
+input#cmn-toggle-3.cmn-toggle-round:checked+label:after,
+input#cmn-toggle-4.cmn-toggle-round:checked+label:after,
+input#cmn-toggle-5.cmn-toggle-round:checked+label:after {
+    margin-left: 30px;
+}
+
+
+
+
