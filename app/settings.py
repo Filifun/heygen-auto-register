@@ -6,7 +6,8 @@ env = Env()
 env.read_env()
 
 CAPTCHA_RESOLVER_API_URL = 'https://api.yescaptcha.com/createTask'
-CAPTCHA_RESOLVER_API_KEY = env.str('CAPTCHA_RESOLVER_API_KEY')
+# CAPTCHA_RESOLVER_API_KEY = env.str('CAPTCHA_RESOLVER_API_KEY')
+CAPTCHA_RESOLVER_API_KEY = '12312312312312321'
 
 CAPTCHA_DEMO_URL = 'https://www.google.com/recaptcha/api2/demo'
 

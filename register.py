@@ -35,7 +35,7 @@ currentPath = os.getcwd() #当前运行目录
 email_queue = queue.Queue()
 
 emails_arr = [
-    # "311hg@domain.com",
+    "311hg@domain.com",
     # "312hg@domain.com",
 ]
 
