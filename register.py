@@ -36,8 +36,7 @@ email_queue = queue.Queue()
 
 emails_arr = [
     # "311hg@domain.com",
-    "312hg@domain.com",
-    "313hg@domain.com",
+    # "312hg@domain.com",
 ]
 
 def init_emails_queue():
@@ -53,7 +52,7 @@ def run(playwright):
     password = 'Amypwd123456'
     init_emails_queue()
     # 邮箱的固定密码
-    mail_pwd = 'smtpPwd1231232'
+    mail_pwd = 'smtpPwd123456'
 
     # 注册账号数
     max_nums   = 3 
@@ -94,6 +93,7 @@ def run(playwright):
             page_network.set_default_timeout(0)
             page_network.context.clear_cookies() #清除cookies
             page_network.goto("https://google.com")
+            # page_network.wait_for_load_state()
             page_network.wait_for_load_state('load')
 
             email = email_queue.get_nowait()
@@ -186,7 +186,7 @@ def write_email_to_txt(email):
         f.write("\n")
 
 def remote_fetch_emails(mail_username, mail_pwd):
-    url = 'http://api.domain.com/fetch_emails'
+    url = 'http://api.fastawk.com/fetch_emails'
 
     # 构造请求参数
     payload = {
