@@ -7,6 +7,10 @@ run:
 
 ```
 
+#### 项目演示：
+https://github.com/Filifun/heygen-auto-register/assets/154949539/320338f3-d23f-4c39-9d47-171931031f2b
+
+
 #### 项目介绍与注意事项： 
 本项目用于自动化在heygen网站上进行注册的脚本。仅供学习参考
 使用了 Playwright 库来与 Chromium 浏览器进行交互。模拟人的行为进行操作
@@ -22,5 +26,4 @@ chrome浏览器、相关库依赖在requirements
 如果需要用插件破解谷歌认证，则 extensions/yescaptcha/config.js将clientKey的值改成自己的
 
 ## heygen交流群
-WX/DY：Filifun
-拉你进群
+添加WX/DY：Filifun（请备注说明，拉你进群）
